@@ -17,6 +17,8 @@ This repository contains the myToko project, developed as part of a college assi
 
 ## Technologies Used
 
+* **Apache NetBeans**: The application used to create this project.
+
 * **Java**: The core programming language.
 
 * **SQL**: For database management and queries.
