@@ -1,0 +1,7 @@
+CREATE TABLE Admin (
+id			INT				PRIMARY KEY IDENTITY(1,1),
+fullname	VARCHAR(255)	NOT NULL,
+username	VARCHAR(25)		UNIQUE NOT NULL,
+password	VARCHAR(50)		NOT NULL,
+privilege	TINYINT			DEFAULT 0
+);

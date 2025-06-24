@@ -1,0 +1,4 @@
+CREATE TABLE Kategori (
+id		VARCHAR(4)	PRIMARY KEY CHECK(id LIKE ('K[0-9][0-9][0-9]')),
+nama	CHAR(50)	NOT NULL
+);

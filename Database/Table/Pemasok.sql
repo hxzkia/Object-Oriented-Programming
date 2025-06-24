@@ -1,0 +1,5 @@
+CREATE TABLE Pemasok (
+id			VARCHAR(4)		PRIMARY KEY CHECK(id LIKE ('P[0-1][0-1][0-1]')),	
+nama		CHAR(255)		NOT NULL,
+nomorHP		VARCHAR(15)		UNIQUE NOT NULL
+);
